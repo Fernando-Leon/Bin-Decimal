@@ -1,0 +1,16 @@
+Numericos 
+
+/* Byte (entero): Ocupa un byte de memoria y su rango es de -128 hasta 127.
+   Short (entero): Ocupa 2 bytes de memoria y su rango es de -32,768 hasta 32,727
+   Int (entero): Ocupa 4 bytes de memoria y su rango es de -2,147,483,648 hasta 2,147,483,647
+   Long (entero): Ocupa 8 bytes de memoria y su rango es de 9,223,372,036,854,775,808 hasta   9,223,372,036,854,775,807.
+Float (decimal): Ocupan 4 bytes de memoria y su rango es de 1.40129846432481707e-45 hasta 3.40282346638528860e+38.
+*/  
+
+//Ejemplos
+
+byte n1 = 17: // Byte 
+short n2 = -25000; // Short
+int n3 = 500000: // Int
+long n4 = 62871387213213; // Long
+float n5 = 154.66323; // Float

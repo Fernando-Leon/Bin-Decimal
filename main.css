@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+:root {
+    --colorMain: #04253A;
+    --colorSecond: #4C837A;
+    --colorThree: #E1DDBF;
+    --colorText1: #000000;
+    --colorText2: #FFFFFF;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--colorMain);
+}
+
+#conatiner-main {
+    margin: 20px 0px 20px 0px;
+    width: 80%;
+    display: grid;
+}
+
+#conatiner-main h1 {
+    text-align: center;
+    padding: 10px 20px;
+    font-weight: 500;
+    color: var(--colorText2);
+}
+
+.section-opst {
+    background-color: var(--colorThree);
+    width: 80%;
+    justify-self: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.section-opst h2{
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--colorMain);
+}
+
+.zone-opt {
+    display: grid;
+    grid-gap: 8px
+}
+
+.zone-opt label {
+    font-weight: 500;
+}
+
+.zone-opt input[type="number"], .zone-opt input[type="text"] {
+    border: none;
+    outline: none;
+    padding: 6px;
+    width: 50%;
+    border-radius: 5px;
+    transition: .2s;
+}
+
+.zone-opt input[type="number"] {
+    border: solid 1px var(--colorSecond);
+}
+
+.zone-opt input[type="number"]:hover, .zone-opt input[type="number"]:focus  {
+    background-color: var(--colorSecond);
+    color: var(--colorThree);
+    width: 80%;
+}
+
+.zone-opt button {
+    justify-self: center;
+    width: auto;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: none;
+    background-color: var(--colorMain);
+    color: var(--colorText2);
+    cursor: pointer;
+    transition: .2s;
+}
+
+.zone-opt button:hover {
+    background-color: var(--colorSecond);
+    color: var(--colorThree);
+    padding: 10px 25px;
+}
+

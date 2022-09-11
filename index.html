@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coversor de sistemas numericos</title>
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <link rel="icon" href="icon.png">
+</head>
+<body>
+    <div id="conatiner-main">
+        <h1>Conversor de sistemas numericos</h1>
+        <section class="section-opst">
+            <h2>Binario a decimal</h2>
+            <div class="zone-opt">
+                <label for="bin-to-decimal">Entrada (binario)</label>
+                <input type="number" id="bin-to-decimal" placeholder="10100">
+                <button id="btn-bin-decimal" onclick="binariToDecimal()"> Convertir </button>
+                <label for="rest-bin-des">Salida (decimal)</label>
+                <input type="text" id="rest-bin-des" placeholder="12" readonly >
+            </div>
+        </section>
+        <section class="section-opst">
+            <h2>Decimal a binario</h2>
+            <div class="zone-opt">
+                <label for="decinal-to-bin">Entrada (decimal)</label>
+                <input type="number" id="decimal-to-bin" placeholder="768">
+                <button id="btn-decimal-bin" onclick="decimalToBinari()"> Convertir </button>
+                <label for="rest-decimal-bin">Salida (binario)</label>
+                <input type="text" id="rest-des-bin" placeholder="1010010100" readonly>
+            </div>
+        </section>
+        <script src="main.js"></script>
+    </div>
+    
+</body>
+</html>
